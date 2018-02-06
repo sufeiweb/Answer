@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-size: 14px;
+  font-family: arial "microsoft yahei";
+  background: #f0f2f5;
+}
+ul,li{
+  list-style: none;
+}
+/*按钮*/
+.btn{
+  border:1px solid #4187db;
+  color: #4187db;
+  background: #fff;
+  padding: 6px 14px 7px;
+  border-radius: 3px;
+  transition: all 0.5s ease;
+  outline: none;
+  margin-top: 14px;
+  cursor: pointer;
+}
+.btn i{
+  margin-right: 4px;
+}
+.btn:hover{
+  background: #4187db;
+  color: #fff;
+}
+
+/*输入框*/
+.myinput{
+  width: 100%;
+  border: 1px solid #cad3de;
+  height: 35px;
+  line-height: 35px;
+  margin: 5px 0 10px;
+  border-radius: 3px;
+  padding: 0 10px;
+  outline: none;
+  box-sizing: border-box;
+}
+.mytextarea{
+  width: 100%;
+  border: 1px solid #cad3de;
+  height: 500px;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+.mybutton{
+  cursor: pointer;
+  border-radius: 4px;
+  width: 140px;
+  height: 34px;
+  color: #01aaef;
+  border:1px solid #01aaef;
+}
+.mybutton:hover{
+  background: #01aaef;
+  color: #fff;
+}
+.myinput:focus{
+  border: 1px solid #4289dc;
+}
+.mytextarea:focus{
+  border: 1px solid #4289dc;
+}
+button{
+  outline: none;
+  border:none;
+  background: none;
+}
+
+.css{
+  background: #01aaef !important;
+}
+.javascript{
+  background: orange !important;
+}
+.jQuery{
+  background:pink !important;
+}
+.html{
+  background: greenyellow !important;
+}
+.node{
+  background: cyan !important;
+}
+.vue{
+  background: rgb(100,181,135) !important;
+}
+.react{
+  background: coral !important;
+}
+.wexx{
+  background: #770088 !important;
+}
+.weex{
+   background: saddlebrown !important;
+ }
+.json{
+  background: yellow !important;
+}
+.other{
+  background: red !important;
+}
+.content {
+ overflow: auto;
+}
